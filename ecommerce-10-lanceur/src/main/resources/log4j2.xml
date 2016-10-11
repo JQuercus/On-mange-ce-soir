@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="WARN">
+    <properties>
+        <property name="logFilePosition">${sys:logPetitnom}</property>
+    </properties>
+    <Appenders>
+        <Console name="Console" target="SYSTEM_OUT">
+            <PatternLayout pattern="%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"/>
+        </Console>
+    </Appenders>
+    <File name="OutputFile" fileName="${logFilePosition}" immediateFlush="true">
+        <PatternLayout>
+            <Pattern>%d{HH:mm:ss} %m; %n</Pattern>
+        </PatternLayout>
+    </File>
+
+
+    <Loggers>
+        <Root level="error">
+            <AppenderRef ref="Console"/>
+        </Root>
+        <Root level="info">
+            <AppenderRef ref="Console"/>
+        </Root>
+
+
+
+
+    </Loggers>
+</Configuration>

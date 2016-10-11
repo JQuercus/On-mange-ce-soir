@@ -1,0 +1,10 @@
+/home/formation/Bureau/Projets/ecommerce-10/src/main/java/com/formation/services/ProduitService.java
+/home/formation/Bureau/Projets/ecommerce-10/src/main/java/com/formation/exceptions/MetierException.java
+/home/formation/Bureau/Projets/ecommerce-10/src/main/java/com/formation/App.java
+/home/formation/Bureau/Projets/ecommerce-10/src/main/java/com/formation/models/Panier.java
+/home/formation/Bureau/Projets/ecommerce-10/src/main/java/com/formation/services/ClientService.java
+/home/formation/Bureau/Projets/ecommerce-10/src/main/java/com/formation/models/Produit.java
+/home/formation/Bureau/Projets/ecommerce-10/src/main/java/com/formation/services/PanierService.java
+/home/formation/Bureau/Projets/ecommerce-10/src/main/java/com/formation/models/Client.java
+/home/formation/Bureau/Projets/ecommerce-10/src/main/java/com/formation/services/DBService.java
+/home/formation/Bureau/Projets/ecommerce-10/src/main/java/com/formation/models/ProduitAjouteAuPanier.java

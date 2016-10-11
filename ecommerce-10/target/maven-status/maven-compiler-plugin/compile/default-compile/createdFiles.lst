@@ -1,0 +1,10 @@
+com/formation/models/Client.class
+com/formation/App.class
+com/formation/exceptions/MetierException.class
+com/formation/models/ProduitAjouteAuPanier.class
+com/formation/models/Panier.class
+com/formation/models/Produit.class
+com/formation/services/ClientService.class
+com/formation/services/ProduitService.class
+com/formation/services/PanierService.class
+com/formation/services/DBService.class
