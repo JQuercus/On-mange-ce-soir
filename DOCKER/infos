@@ -1,0 +1,14 @@
+Inslaller Docker
+
+Dansl le dossier /home/Services on crée le dossier Projet1
+
+dans $/Projet1 on crée le fichier Dockerfile
+
+On constrit le conteneur :
+$> docker build -t tartiflette .
+On l'execute :
+$> docker run --rm tartiflette 
+
+
+Pour executer mon projet Play qui se trouve aussi à /Projet1/ProjetPlay
+
