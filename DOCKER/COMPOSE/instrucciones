@@ -1,0 +1,8 @@
+Creamos un repertorio miCompose con la aplicación PLAY y en el archivo application.cof añadimos :
+
+db.default=mysql://root:secreto@mysql_mio/ecommerce_jpa
+
+En miCompose ponemos el archivo Dockerfile que lanza Play
+
+
+
