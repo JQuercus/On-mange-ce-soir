@@ -1,15 +1,17 @@
-Creamos un repertorio miCompose con la aplicación PLAY y en el archivo application.cof añadimos :
+Creamos un repertorio /miCompose con la aplicación PLAY y en el archivo application.cof añadimos :
 
 db.default=mysql://root:secreto@mysql_mio/nombreBase_jpa
 
 mysql_mio es la base de datos que vamos a crear en la imagen
 
-En miCompose ponemos el archivo Dockerfile que lanza Play
-y tambien el archivo docker-compose.yml
+En /miCompose ponemos el archivo "Dockerfile" que lanza Play
+y tambien el archivo "docker-compose.yml"
 
 En el path : docker-composer up
 
 y la imagen se lanza !
+
+Play funciona en el puerto 9001 y "la vie est belle"
 
 
 
