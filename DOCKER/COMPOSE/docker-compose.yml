@@ -1,0 +1,14 @@
+version: '2'
+services:
+  play:
+    build: .
+    ports:
+      - "9001:9000"
+    depends_on:
+      - mysql_mio
+    
+  mysql_solo:
+    image: mysql
+    environment:
+      - MYSQL_ROOT_PASSWORD=miPasswordSecret
+      - MYSQL_DATABASE=nombreBase_jpa
